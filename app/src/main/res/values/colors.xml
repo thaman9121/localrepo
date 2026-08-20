@@ -1,0 +1,8 @@
+<resources>
+    <color name="nova_black">#050609</color>
+    <color name="nova_surface">#0D1016</color>
+    <color name="nova_violet">#8B5CFF</color>
+    <color name="nova_cyan">#52D7FF</color>
+    <color name="nova_text">#F5F7FF</color>
+    <color name="nova_muted">#8991A7</color>
+</resources>
