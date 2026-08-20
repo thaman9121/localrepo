@@ -1,16 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application android:theme="@style/AppTheme" android:label="NOVA OS" android:icon="@drawable/nova_orb" android:resizeableActivity="true">
+        <activity android:name=".NOVAThemeActivity" android:exported="true" android:label="NOVA Personalization">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+        <activity android:name=".NOVAControlActivity" android:exported="true" android:label="NOVA Control Center">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
         <activity android:name=".NovaSettingsActivity" android:exported="true" android:label="NOVA Settings">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
         </activity>
         <activity android:name=".NovaBriefActivity" android:exported="true" android:label="NOVA Now Brief">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
         </activity>
         <activity android:name=".MainActivity" android:screenOrientation="portrait" android:exported="true">
             <intent-filter>
